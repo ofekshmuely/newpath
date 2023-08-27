@@ -1,52 +1,63 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import Link from "next/link";
+import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+    <div id="home" className="w-full h-screen text-center">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
-            LET&#39;S BUILD SOMETHING TOGETHER
-          </p>
-          <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Clint</span>
+          <h1 className="py-4 text-gray-700">
+            Shalom! I&#39;m{" "}
+            <span className=" font-bold bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 text-transparent bg-clip-text ">
+              {" "}
+              Ofek
+            </span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
-          <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m focused on building responsive front-end web applications
-            integrating back-end technologies.
-          </p>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
-              target='_blank'
-              rel='noreferrer'
+          <h2 className="animate-pulse text-xl font-semibold py-1 text-black-300">
+            Front-End Web Developer <br />
+            E-commerce Operator <br />
+            Content Creator
+          </h2>
+
+          <p className=" mt-4 uppercase text-md font-bold tracking-widest text-gray-600">
+            Code, Learn, Grow, Succeed, Repeat{" "}
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              className="inline-block align-middle mr-2 animate-spin"
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z" />
+              <path d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z" />
+            </svg>
+          </p>
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <a
+              href="https://www.linkedin.com/in/ofeks/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
+              href="https://github.com/ofekshmuely"
+              target="_blank"
+              rel="noreferrer"
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
-            <Link href='/#contact'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <Link href="/#contact">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
-              </div>
-            </Link>
-            <Link href='/resume'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
               </div>
             </Link>
           </div>
