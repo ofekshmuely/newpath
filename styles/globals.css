@@ -37,11 +37,16 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r  from-green-400 via-blue-500 to-purple-500 text-white;
+    @apply text-white uppercase shadow-xl shadow-gray-400 rounded-xl bg-gradient-to-r from-green-400 via-blue-500 to-purple-500;
   }
 }
 
 .fade-in {
+  animation: spinly 2.4s cubic-bezier(0.4, 0.1, 0.3, 1) infinite;
+  transform-origin: center;
+}
+
+#fade-in-emoji {
   animation: spinly 2.4s cubic-bezier(0.4, 0.1, 0.3, 1) infinite;
   transform-origin: center;
 }

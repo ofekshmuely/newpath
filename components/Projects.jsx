@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import propertyImg from "../public/assets/projects/property.jpg";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
+import parkingStatusImg from "../public/assets/projects/parkingStatus.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 import ProjectItem from "./ProjectItem";
 
@@ -15,7 +15,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid gap-8 md:grid-cols-2">
           <ProjectItem
             title="Property Finder"
             backgroundImg={propertyImg}
@@ -30,8 +30,8 @@ const Projects = () => {
           />
           <ProjectItem
             title="Handicapped parking status"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
+            backgroundImg={parkingStatusImg}
+            projectUrl="/parkingStatus"
             tech="vanilla js"
           />
           <ProjectItem

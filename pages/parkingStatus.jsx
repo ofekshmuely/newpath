@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import netflixImg from "../public/assets/projects/netflix.jpg";
+import parkingStatusImg from "../public/assets/projects/parkingStatus.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const netflix = () => {
+const parkingStatus = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,7 +13,7 @@ const netflix = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={netflixImg}
+          src={parkingStatusImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -49,14 +49,14 @@ const netflix = () => {
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
+        <div className="col-span-4 py-4 shadow-xl md:col-span-1 shadow-gray-400 rounded-xl">
           <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies</p>
+            <p className="pb-2 font-bold text-center">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" /> Bootstrap
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className="flex items-center py-2 text-gray-600">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
             </div>
@@ -70,4 +70,4 @@ const netflix = () => {
   );
 };
 
-export default netflix;
+export default parkingStatus;
