@@ -184,14 +184,14 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg shadow-gray-400 hover:scale-105">
                     <FaGithub />
                   </div>
                 </a>
                 <Link href="/#contact">
                   <div
                     onClick={() => setNav(!nav)}
-                    className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105"
+                    className="p-3 duration-300 ease-in rounded-full shadow-lg shadow-gray-400 hover:scale-105"
                   >
                     <AiOutlineMail />
                   </div>

@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div>
+        <div className="animate-fade-up animate-once animate-ease-in-out">
           <h1 className="py-4 text-gray-700">
             Shalom! I&#39;m{" "}
             <span className="font-bold text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 bg-clip-text">
@@ -16,13 +16,13 @@ const Main = () => {
               Ofek
             </span>
           </h1>
-          <h2 className="py-1 text-xl font-semibold animate-pulse text-black-300">
+          <h2 className="py-1 text-xl font-semibold animate-pulse text-black-300 ">
             Front-End Web Developer <br />
             E-commerce Operator <br />
             Content Creator
           </h2>
 
-          <p className="mt-4 font-bold tracking-widest text-gray-600 uppercase text-md">
+          <p className="mt-4 font-bold tracking-widest text-gray-600 uppercase text-md ">
             Code, Learn, Grow, Succeed, Repeat{" "}
             <svg
               width="16"
@@ -42,7 +42,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+              <div className="p-6 duration-300 ease-in rounded-full shadow-lg shadow-gray-400 hover:scale-110">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -51,12 +51,12 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+              <div className="p-6 duration-300 ease-in rounded-full shadow-lg shadow-gray-400 hover:scale-110">
                 <FaGithub />
               </div>
             </a>
             <Link href="/#contact">
-              <div className="p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
+              <div className="p-6 duration-300 ease-in rounded-full shadow-lg shadow-gray-400 hover:scale-110">
                 <AiOutlineMail />
               </div>
             </Link>
