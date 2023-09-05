@@ -21,7 +21,7 @@ const About = () => {
             Outside of work, I'm an avid tennis player and enthusiast. I also
             enjoy attending web development meetups to stay updated and connect
             with fellow developers. Let's collaborate to bring your web project
-            to life!
+            to life! 🚀
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 transition hover:underline ">
