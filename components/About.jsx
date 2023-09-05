@@ -18,9 +18,9 @@ const About = () => {
             with advanced technologies for a responsive user experience.
           </p>
           <p className="py-2 text-gray-600">
-            Outside of work, I'm an avid tennis player and enthusiast. I also
+            Outside of work, Im an avid tennis player and enthusiast. I also
             enjoy attending web development meetups to stay updated and connect
-            with fellow developers. Let's collaborate to bring your web project
+            with fellow developers. Lets collaborate to bring your web project
             to life! 🚀
           </p>
           <Link href="/#projects">
