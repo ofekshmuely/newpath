@@ -20,13 +20,13 @@ import Woo from "../public/assets/skills/woo.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full p-2 lg:h-screen">
+    <div id="skills" className="w-full p-2 lg:h-screen skillsBG z-0">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#2142F9]">
           Skills
         </p>
         <h2 className="py-4">What I Can Do</h2>
-        <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-8 lg:grid-cols-4 ">
           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
@@ -98,14 +98,14 @@ const Skills = () => {
               <div className="m-auto">
                 <Image src={Tailwind} width="64px" height="64px" alt="/" />
               </div>
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center z-10	">
                 <h3>Tailwind</h3>
               </div>
             </div>
           </div>
 
           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
-            <div className="grid items-center justify-center grid-cols-2 gap-4">
+            <div className="grid items-center justify-center grid-cols-2 gap-4 sm:gap-8">
               <div className="m-auto">
                 <Image src={Typescript} width="64px" height="64px" alt="/" />
               </div>
@@ -171,7 +171,7 @@ const Skills = () => {
           </div>
 
           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
-            <div className="grid items-center justify-center grid-cols-2 gap-4">
+            <div className="grid items-center justify-center grid-cols-2 gap-4 sm:gap-8">
               <div className="m-auto">
                 <Image src={Wordpress} width="64px" height="64px" alt="/" />
               </div>
@@ -182,7 +182,7 @@ const Skills = () => {
           </div>
 
           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
-            <div className="grid items-center justify-center grid-cols-2 gap-4">
+            <div className="grid items-center justify-center grid-cols-2 gap-4 sm:gap-8">
               <div className="m-auto">
                 <Image src={Elementor} width="64px" height="64px" alt="/" />
               </div>
@@ -193,7 +193,7 @@ const Skills = () => {
           </div>
 
           <div className="p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
-            <div className="grid items-center justify-center grid-cols-2 gap-4">
+            <div className="grid items-center justify-center grid-cols-2 gap-4 sm:gap-8">
               <div className="m-auto">
                 <Image src={Woo} width="64px" height="64px" alt="/" />
               </div>

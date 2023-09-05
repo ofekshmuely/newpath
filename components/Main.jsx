@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center mainBG">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="animate-fade-up animate-once animate-ease-in-out">
           <h1 className="py-4 text-gray-700">
@@ -24,17 +24,6 @@ const Main = () => {
 
           <p className="mt-4 font-bold tracking-widest text-gray-600 uppercase text-md ">
             Code, Learn, Grow, Succeed, Repeat{" "}
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              className="inline-block mr-2 align-middle animate-spin"
-            >
-              <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z" />
-              <path d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z" />
-            </svg>
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a

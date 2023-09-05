@@ -17,7 +17,12 @@ const About = () => {
             junior front-end developer, skillfully integrating design elements
             with advanced technologies for a responsive user experience.
           </p>
-          <p className="py-2 text-gray-600">As a web developer....</p>
+          <p className="py-2 text-gray-600">
+            Outside of work, I'm an avid tennis player and enthusiast. I also
+            enjoy attending web development meetups to stay updated and connect
+            with fellow developers. Let's collaborate to bring your web project
+            to life!
+          </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 transition hover:underline ">
               Check out some of my latest projects.

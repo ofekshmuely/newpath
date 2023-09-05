@@ -54,7 +54,7 @@ const Navbar = () => {
           : "fixed w-full h-25 z-[100]"
       }
     >
-      <div className="flex items-center justify-between w-full h-full px-12 2xl:px-16">
+      <div className="flex items-center justify-between w-full h-full px-12 2xl:px-16 mt-1.5	">
         <Link href="/">
           <a>
             <Image
@@ -63,7 +63,7 @@ const Navbar = () => {
               width="58"
               height="54"
               padding="10"
-              className="cursor-pointer p-90"
+              className=" p-90"
             />
           </a>
         </Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400"
+                className="p-3 rounded-full shadow-lg  shadow-gray-400"
               >
                 <AiOutlineClose />
               </div>
@@ -175,7 +175,7 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-105">
+                  <div className="p-3 btn-cro duration-300 ease-in rounded-full shadow-lg  shadow-gray-400 hover:scale-105">
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -184,14 +184,14 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg shadow-gray-400 hover:scale-105">
+                  <div className="p-3 duration-300 ease-in rounded-full shadow-lg  shadow-gray-400 hover:scale-105">
                     <FaGithub />
                   </div>
                 </a>
                 <Link href="/#contact">
                   <div
                     onClick={() => setNav(!nav)}
-                    className="p-3 duration-300 ease-in rounded-full shadow-lg shadow-gray-400 hover:scale-105"
+                    className="p-3 duration-300 ease-in rounded-full shadow-lg  shadow-gray-400 hover:scale-105"
                   >
                     <AiOutlineMail />
                   </div>
