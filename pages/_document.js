@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { Script } from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Document() {
   return (
@@ -20,6 +21,7 @@ export default function Document() {
         gtag('config', 'G-7CKE5FMHP4',
          {page_path: window.location.pathname,}); `}
         </NextScript>
+        <Analytics />
       </Head>
       <body>
         <Main />
