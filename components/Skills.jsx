@@ -44,7 +44,7 @@ const Skills = () => {
                 <Image src={Css} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
+                <h3>CSS3</h3>
               </div>
             </div>
           </div>
