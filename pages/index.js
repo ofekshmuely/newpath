@@ -4,7 +4,6 @@ import Contact from "../components/Contact";
 import Main from "../components/Main";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
-import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
           content="Ofek Shmuely | Front-End Developer | E-commerce Operator | Content Creator"
         />
         <link rel="icon" href="/fav.png" />
-        <Analytics />
       </Head>
       <Main />
       <About />
